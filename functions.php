@@ -191,18 +191,7 @@ function westcomfort_validate_gravatar($id_or_email) {
 		return false;
 	}
 }
-/**
- * Move featured image metabox
- */
 
-function westcomfort_move_featured_image(){
-    remove_meta_box('postimagediv', 'project', 'side');
-    add_meta_box('custom_image',esc_html__('Add Slider/Featured Image', 'westcomfort'),
-    'post_thumbnail_meta_box', 'project','normal','high');
-        
- 
-}
-add_action('submitpost_box','westcomfort_move_featured_image' );
 
 /**
  * Implement the Custom Header feature.

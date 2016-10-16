@@ -1100,7 +1100,7 @@ function socialwidget_global_notice() {
 			<style type="text/css">
 				#socialwidget_global_notification a.button:active {vertical-align:baseline;}
 			</style>
-			<div class="updated" id="socialwidget_global_notification" style="border:3px solid #317A96;position:relative;background:##3c9cc2;background-color:#3c9cc2;color:#ffffff;height:70px;">
+			<div class="updated" id="socialwidget_global_notification" style="border:3px solid #317A96;position:relative;background:#3c9cc2;background-color:#3c9cc2;color:#ffffff;height:70px;">
 				<a class="notice-dismiss" href="<?php echo admin_url('admin.php?page=social-media-widget&socialwidget_global_notification=0'); ?>" style="right:165px;top:0;"></a>
 				<a href="<?php echo admin_url('admin.php?page=social-media-widget&socialwidget_global_notification=0'); ?>" style="position:absolute;top:9px;right:15px;color:#ffffff;">Dismiss and go to settings</a>
 				<p style="font-size:16px;line-height:50px;">

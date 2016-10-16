@@ -32,7 +32,7 @@ function my_custom_posttypes() {
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
-        'supports'           => array( 'title', 'editor', 'thumbnail' )
+        'supports'           => array( 'title', 'editor', 'thumbnail', 'excerpt' )
     );
     register_post_type( 'project', $args );
 }
