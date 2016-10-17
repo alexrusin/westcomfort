@@ -18,11 +18,11 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', get_post_format() );
 
 			the_post_navigation( array(
-				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'popperscores' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Next post:', 'popperscores' ) . '</span> ' .
+				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'westcomfort' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Next post:', 'westcomfort' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
-				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'popperscores' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Previous post:', 'popperscores' ) . '</span> ' .
+				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'westcomfort' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Previous post:', 'westcomfort' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
 			) );
 

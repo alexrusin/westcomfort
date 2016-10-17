@@ -192,6 +192,17 @@ function westcomfort_validate_gravatar($id_or_email) {
 	}
 }
 
+/**
+ * Filter the except length to 20 characters.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function westcomfort_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', 'westcomfort_custom_excerpt_length', 999 );
+
 
 /**
  * Implement the Custom Header feature.

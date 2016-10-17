@@ -19,6 +19,20 @@ get_header(); ?>
 
                     <h1 class="entry-tile large-screen">Hello from large screen</h1>
                     <h1 class="entry-tile small-screen">Hello from small screen</h1>
+                    <?php
+                    $args = array( 
+                            'post_type' => 'project', 
+                            'posts_per_page' => 5,
+                            'orderby' => 'DESC'
+                        );
+                    $projects = new WP_Query( $args );
+                    while ( $projects->have_posts() ) : $projects->the_post();
+                        get_template_part( 'template-parts/content-index-project', get_post_format() );
+                    endwhile;
+                    
+                    wp_reset_query();
+
+                    ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

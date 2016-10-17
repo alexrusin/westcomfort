@@ -21,16 +21,6 @@
                     echo '</figure>';
                 }
                 
-                
-                
-                if (has_excerpt($post->ID)){
-                    echo '<div class="deck">';
-                    echo '<p>'.get_the_excerpt().'</p>';
-                    echo '</div><!--.deck-->';
-                }
-                
-                
-
 		 ?>
 	</header><!-- .entry-header -->
 

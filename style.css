@@ -263,6 +263,16 @@ th {
 	border: 1px solid #999;
         padding: 0.5em;
 }
+td {
+    font-size: 0.8em;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
 
 /*--------------------------------------------------------------
 # Typography
