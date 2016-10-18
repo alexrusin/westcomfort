@@ -26,9 +26,25 @@ get_header(); ?>
                             'orderby' => 'DESC'
                         );
                     $projects = new WP_Query( $args );
-                    while ( $projects->have_posts() ) : $projects->the_post();
-                        get_template_part( 'template-parts/content-index-project', get_post_format() );
-                    endwhile;
+                    //slider for large screen
+                    echo '<div class="large-screen">';?>
+                    <div class="slider-wrapper theme-light">
+                        <div id="slider" class="nivoSlider">
+                        <?php
+                        while ( $projects->have_posts() ) : $projects->the_post();?>
+                            <a href="<?php echo esc_url( get_permalink() )?>"><img src="<?php echo esc_url( the_post_thumbnail_url('slider-size'));?>" data-thumb="<?php echo esc_url( the_post_thumbnail_url( 'thumbnail' ));?>" alt="" title="<?php echo the_excerpt();?>" /></a>
+                            
+                       <?php endwhile;?>
+                        </div>
+                    </div>
+                    <?php echo'</div>';
+                    
+                    //archive page for small screen
+                    echo '<div class="small-screen">';
+                        while ( $projects->have_posts() ) : $projects->the_post();
+                            get_template_part( 'template-parts/content-index-project', get_post_format() );
+                        endwhile;
+                    echo'</div>';
                     
                     wp_reset_query();
 

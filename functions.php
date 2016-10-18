@@ -43,6 +43,7 @@ function westcomfort_setup() {
 	add_theme_support( 'post-thumbnails' );
         set_post_thumbnail_size(846, 360, true);
         add_image_size('westcomfort-small-thumb',300, 150, true);
+        add_image_size('slider-size',846, 440, true);
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'westcomfort' ),
@@ -103,9 +104,9 @@ function westcomfort_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
         register_sidebar( array(
-		'name'          => esc_html__( 'Social Widget', 'westcomfort' ),
+		'name'          => esc_html__( 'Header Widget Area', 'westcomfort' ),
 		'id'            => 'sidebar-search',
-		'description'   => esc_html__( 'Add social media widget here', 'westcomfort' ),
+		'description'   => esc_html__( 'Add contact info here', 'westcomfort' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -120,6 +121,10 @@ add_action( 'widgets_init', 'westcomfort_widgets_init' );
 function westcomfort_scripts() {
 	wp_enqueue_style( 'westcomfort-style', get_stylesheet_uri() );
         
+        //Add nivo-slider style
+        wp_enqueue_style( 'nivo-style', get_template_directory_uri().'/nivo-slider/nivo-slider.css' );
+        wp_enqueue_style( 'nivo-theme', get_template_directory_uri().'/nivo-slider/themes/light/light.css' );
+        
         //Add Google Fonts: Fira Sans and Merriweather
         wp_enqueue_style('westcomfort-google-fonts', 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i&subset=cyrillic');
         
@@ -133,6 +138,10 @@ function westcomfort_scripts() {
 	) );
 
 	wp_enqueue_script( 'westcomfort-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+        
+        //Add nivo-slider scripts
+        wp_enqueue_script( 'nivo-slider', get_template_directory_uri() . '/nivo-slider/jquery.nivo.slider.js', array('jquery'), '20161018', true );
+        wp_enqueue_script( 'nivo-controls', get_template_directory_uri() . '/nivo-slider/nivo-slider-controls.js', array('nivo-slider'), '20161018', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -199,7 +208,7 @@ function westcomfort_validate_gravatar($id_or_email) {
  * @return int (Maybe) modified excerpt length.
  */
 function westcomfort_custom_excerpt_length( $length ) {
-    return 30;
+    return 25;
 }
 add_filter( 'excerpt_length', 'westcomfort_custom_excerpt_length', 999 );
 

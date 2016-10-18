@@ -37,9 +37,7 @@
                 
                 <div class="contact-info">
                     <?php get_sidebar('search');?>
-                    <p>+7 926 177 62 97</p>
-                    <p>+375 29 217 08 01</p>
-                    
+                                       
                 </div>
                 <div class="clear"></div>
                 

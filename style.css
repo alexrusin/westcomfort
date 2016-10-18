@@ -1243,8 +1243,9 @@ img.alignright {
     
 }
 .contact-info p {
-    margin-bottom: -1.2em;
+    margin-bottom: -1em;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 @media screen and (min-width:57em){
@@ -1253,6 +1254,10 @@ img.alignright {
     }
     .contact-info {
         float:right;
+        text-align:right;
+    }
+    .contact-info .Social_Widget {
+        padding-left: 9em !important;
     }
     
 }
@@ -1608,9 +1613,7 @@ img.alignright {
 }
 
 @media screen and (min-width: 910px) {
-    .search-widget {
-        width:3em;
-    }
+    
     .search-widget .widget {
         width:350px;
         float:none;
@@ -2333,7 +2336,7 @@ object {
     display:none;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 43em) {
 	.small-screen {
 		display:none;
 	}

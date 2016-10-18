@@ -17,6 +17,7 @@
 		if (has_post_thumbnail()){
                     echo '<figure class="featured-image project-image">';
                     the_post_thumbnail();
+                   
                     the_title( '<h1 class="entry-title project-title">', '</h1>' );
                     echo '</figure>';
                 }
