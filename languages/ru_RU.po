@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-10-19 13:40-0700\n"
+"PO-Revision-Date: 2016-10-19 13:46-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;esc_html__;esc_html_e;_n:1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive-project.php:19
+msgid "Our Projects"
+msgstr "Наши проекты"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "Просмотреть комментарии"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "Новые комметарии"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+#: footer.php:18
+msgid "https://westcomfort.ru"
+msgstr ""
+
+#: footer.php:18
+#, php-format
+msgid "&copy; %s WestComfort - Private Building Company"
+msgstr "&copy; %s WestComfort - Частная строительная компания"
+
+#: functions.php:49
+msgid "Primary"
+msgstr "Основной"
+
+#: functions.php:50
+msgid "Secondary"
+msgstr "Вторичный"
+
+#: functions.php:98
+msgid "Widget Area"
+msgstr "Область виджетов"
+
+#: functions.php:100
+msgid "Add widgets here."
+msgstr "Добавление виджетов здесь."
+
+#: functions.php:107
+msgid "Header Widget Area"
+msgstr "Виджеты в заголовке (хидере)"
+
+#: functions.php:109
+msgid "Add contact info here"
+msgstr "Добавьте сюда контактную информацию"
+
+#: functions.php:136
+msgid "expand child menu"
+msgstr "открыть дочернее меню"
+
+#: functions.php:137
+msgid "collapse child menu"
+msgstr "закрыть дочернее меню"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Перейти к контенту"
+
+#: header.php:30
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/custom-post-types.php:6 inc/custom-post-types.php:8
+msgid "Projects"
+msgstr "Проекты"
+
+#: inc/custom-post-types.php:7 inc/custom-post-types.php:9
+msgid "Project"
+msgstr "Проект"
+
+#: inc/custom-post-types.php:10
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: inc/custom-post-types.php:11
+msgid "Add New Project"
+msgstr "Добавить новый проект"
+
+#: inc/custom-post-types.php:12
+msgid "New Project"
+msgstr "Новый проект"
+
+#: inc/custom-post-types.php:13
+msgid "Edit Project"
+msgstr "Редактировать проект"
+
+#: inc/custom-post-types.php:14
+msgid "View Project"
+msgstr "Просмотреть проект"
+
+#: inc/custom-post-types.php:15
+msgid "All Projects"
+msgstr "Все проекты"
+
+#: inc/custom-post-types.php:16
+msgid "Search Projects"
+msgstr "Поиск проектов"
+
+#: inc/custom-post-types.php:17
+msgid "Parent Projects:"
+msgstr "Родительский документ"
+
+#: inc/custom-post-types.php:18
+msgid "No projects found."
+msgstr "Не найдено проектов!"
+
+#: inc/custom-post-types.php:19
+msgid "No projects found in Trash."
+msgstr "Проекты не найдены в корзине"
+
+#: inc/template-tags.php:51 inc/template-tags.php:121
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить отзыв <span class=\"screen-reader-text\">на %s</span>"
+
+#: inc/template-tags.php:90
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: inc/template-tags.php:90
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: inc/template-tags.php:90
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: inc/template-tags.php:106 inc/template-tags.php:112
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:108
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Опубликован в %1$s"
+
+#: inc/template-tags.php:114
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+#: inc/template-tags.php:128 template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#: inc/template-tags.php:229
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: inc/template-tags.php:230
+msgid "Next &rarr;"
+msgstr "След. &rarr;"
+
+#: inc/template-tags.php:238
+msgid "Posts navigation"
+msgstr "Навигация по статьям"
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: single-project.php:19 single.php:21
+msgid "Next"
+msgstr "След."
+
+#: single-project.php:20
+msgid "Next project:"
+msgstr "Следующий проект"
+
+#: single-project.php:22 single.php:24
+msgid "Previous"
+msgstr "Пред."
+
+#: single-project.php:23
+msgid "Previous project:"
+msgstr "Предыдущий проект"
+
+#: single.php:22
+msgid "Next post:"
+msgstr "Следующая статья:"
+
+#: single.php:25
+msgid "Previous post:"
+msgstr "Предыдущая статья:"
+
+#: social-media-widget/settings.php:15
+msgid "Tools to grow your Email List, Social Sharing and Analytics."
+msgstr "Инструменты для развития своего списка рассылки, соцсети и аналитики"
+
+#: social-media-widget/social-widget.php:38
+msgid ""
+"A widget that allows the user to display social media icons in their sidebar"
+msgstr ""
+"Виджет, который позволяет пользователю отображать иконки социальных сетей в "
+"их боковой панели"
+
+#: social-media-widget/social-widget.php:44
+msgid "Social Media Widget"
+msgstr ""
+
+#: social-media-widget/social-widget.php:571
+msgid "Follow Us!"
+msgstr ""
+
+#: social-media-widget/social-widget.php:573
+msgid "Follow Us on"
+msgstr ""
+
+#: social-media-widget/social-widget.php:582
+msgid "http://www.yoursite.com/wordpress/wp-content/your-icons"
+msgstr ""
+
+#: social-media-widget/social-widget.php:583
+msgid "/path/to/your-icons"
+msgstr ""
+
+#: social-media-widget/social-widget.php:586
+msgid "http://"
+msgstr ""
+
+#: social-media-widget/social-widget.php:590
+msgid "subscribe"
+msgstr "подпишись"
+
+#: social-media-widget/social-widget.php:615
+msgid "Title:"
+msgstr "Название:"
+
+#: social-media-widget/social-widget.php:621
+msgid "Widget Text:"
+msgstr "Текст виджета"
+
+#: social-media-widget/social-widget.php:627
+msgid "Icon Alt and Title Tag:"
+msgstr "Иконка Alt and Title таг:"
+
+#: social-media-widget/social-widget.php:633
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+#: social-media-widget/social-widget.php:650
+msgid "Icon Pack"
+msgstr "Пакет иконок"
+
+#: social-media-widget/social-widget.php:663
+msgid "Type of Animation"
+msgstr "Вид анимации"
+
+#: social-media-widget/social-widget.php:675
+msgid "Default Icon Opacity"
+msgstr "Прозрачность иконки по умолчанию"
+
+#: social-media-widget/social-widget.php:690
+msgid "Use rel=\"nofollow\" for links"
+msgstr "Использовать rel=\"nofollow\" для ссылок"
+
+#: social-media-widget/social-widget.php:700
+msgid "Open in new tab?"
+msgstr "Открыть в новой вкладке?"
+
+#: social-media-widget/social-widget.php:710
+msgid "Icon Alignment"
+msgstr "Выравнивание иконок"
+
+#: social-media-widget/social-widget.php:736
+msgid "Icons per row"
+msgstr "Иконок в ряду"
+
+#: social-media-widget/social-widget.php:799
+#: social-media-widget/social-widget.php:821
+#: social-media-widget/social-widget.php:843
+#: social-media-widget/social-widget.php:865
+#: social-media-widget/social-widget.php:887
+#: social-media-widget/social-widget.php:909
+#: social-media-widget/social-widget.php:931
+#: social-media-widget/social-widget.php:953
+#: social-media-widget/social-widget.php:975
+#: social-media-widget/social-widget.php:997
+msgid " URL:"
+msgstr ""
+
+#: social-media-widget/social-widget.php:1023
+#: social-media-widget/social-widget.php:1026
+#: social-media-widget/social-widget.php:1029
+msgid "Custom Service "
+msgstr ""
+
+#: social-media-widget/social-widget.php:1041
+msgid "Custom Icons URL:"
+msgstr ""
+
+#: social-media-widget/social-widget.php:1047
+msgid "Custom Icons Path:"
+msgstr ""
+
+#: social-media-widget/social-widget.php:1107
+msgid "Looking for more sharing tools?"
+msgstr "Нужны дополнительные инструменты обмена?"
+
+#: template-parts/content-index-project.php:58
+#: template-parts/content-index.php:63
+#, php-format
+msgid "Continue reading %s"
+msgstr "Подробнее %s"
+
+#: template-parts/content-none.php:15
+msgid "Page not available"
+msgstr "Страница не доступна"
+
+#: template-parts/content-none.php:18
+#, php-format
+msgid "Nothing found for &ldquo;%s&rdquo;"
+msgstr "Ничего не найдено по &ldquo;%s&rdquo;"
+
+#: template-parts/content-none.php:20
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: template-parts/content-none.php:29
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свой первую статью? <a href=\"%1$s\">Начните здесь</a>."
+
+#: template-parts/content-none.php:33
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничего не найдено по вашему запросу. Пожалуйста, попытайтесь "
+"искать используя другие ключевые слова"
+
+#: template-parts/content-none.php:38
+msgid ""
+"You seem to be lost. To find what you are looking for check out the most "
+"recent articles below or try a search:"
+msgstr ""
+"Вы, кажется, потерялись. Для того, чтобы найти то, что вы ищете просмотрите "
+"свежие статьи ниже или попробуйте поиск"
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "У нас нет страницы на которую вы хотели попасть.  Попробуйте поискю"
+
+#: template-parts/content-none.php:52
+msgid "Most recent posts:"
+msgstr "Самые свежие статьи"
+
+#: template-parts/content-page.php:22 template-parts/content-project.php:38
+#: template-parts/content.php:53
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-project.php:33 template-parts/content.php:48
+#, php-format
+msgid "Continue reading %s <span class=\"/meta-nav\">&rarr;</span>"
+msgstr "Подробнее %s <span class=\"/meta-nav\">&rarr;</span>"

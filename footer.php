@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://westcomfort.ru', 'westcomfort' ) ); ?>"><?php printf( esc_html__( '&copy; %s WestComfort - Частная строительная компания', 'westcomfort' ), date("Y") ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://westcomfort.ru', 'westcomfort' ) ); ?>"><?php printf( esc_html__( '&copy; %s WestComfort - Private Building Company', 'westcomfort' ), date("Y") ); ?></a>
 <!--			<span class="sep"> | </span>-->
 			<?php // printf( esc_html__( 'Theme: %1$s by %2$s.', 'westcomfort' ), 'westcomfort', '<a href="http://alexrusin.com" rel="designer">Alex Rusin</a>' ); ?>
 		</div><!-- .site-info -->

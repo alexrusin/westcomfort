@@ -17,8 +17,6 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-                    <h1 class="entry-tile large-screen">Hello from large screen</h1>
-                    <h1 class="entry-tile small-screen">Hello from small screen</h1>
                     <?php
                     $args = array( 
                             'post_type' => 'project', 
