@@ -2258,8 +2258,26 @@ object {
 	text-align: center;
 	vertical-align: top;
 	width: 100%;
-	padding: 1em;
+	
+        
 }
+        
+        @media screen and (max-width: 60em) {
+            .gallery-item {
+                max-width: 33% !important;
+            }
+        }
+        @media screen and (max-width: 40em) {
+            .gallery-item {
+                max-width: 50% !important;
+            }
+        }
+        
+        @media screen and (max-width: 25em) {
+            .gallery-item {
+                max-width: 100% !important;
+            }
+        }
 
 .gallery-item img {
 	display: block;
