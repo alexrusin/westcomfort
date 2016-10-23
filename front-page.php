@@ -30,8 +30,9 @@ get_header(); ?>
                         <div id="slider" class="nivoSlider">
                         <?php
                         while ( $projects->have_posts() ) : $projects->the_post();?>
+                            <?php if (has_post_thumbnail()){?>
                             <a href="<?php echo esc_url( get_permalink() )?>"><img src="<?php echo esc_url( the_post_thumbnail_url('slider-size'));?>" data-thumb="<?php echo esc_url( the_post_thumbnail_url( 'thumbnail' ));?>" alt="" title="<?php echo the_excerpt();?>" /></a>
-                            
+                           <?php } ?>
                        <?php endwhile;?>
                         </div>
                     </div>

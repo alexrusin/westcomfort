@@ -20,6 +20,8 @@
                    
                     the_title( '<h1 class="entry-title project-title">', '</h1>' );
                     echo '</figure>';
+                } else {
+                    the_title( '<h1 class="entry-title">', '</h1>' );
                 }
                 
 		 ?>
