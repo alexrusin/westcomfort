@@ -4,7 +4,7 @@
  *
  * This is the template that displays front page by default.
  * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
+ * and that other 'pages' on your WordPress site may use 
  * different template.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
@@ -46,8 +46,10 @@ get_header(); ?>
                     echo'</div>';
                     
                     wp_reset_query();
-
+                    $projects_link= get_site_url() . '/projects';
                     ?>
+                    <div class="projects-link"><a href="<?= $projects_link ?>"><?php _e('See All Projects', 'westcomfort');?></a></div>
+                    
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

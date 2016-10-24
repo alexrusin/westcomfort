@@ -1994,6 +1994,22 @@ img.alignright {
     display: inline;
 }
 
+/*styles for see all projects link*/
+.projects-link{
+    text-align:center;
+    margin-top: -5px;
+    text-transform:uppercase;
+    font-weight: 700;
+}
+
+.projects-link::after {
+    display: block;
+    content: "";
+    width: 7em;
+    border-bottom: 1px solid #c3c3c3;
+    margin: 1em auto 1em;
+}
+
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
